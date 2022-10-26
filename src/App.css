@@ -18,7 +18,7 @@
 }
 
 a {
-  color: var(--color-off-black);
+  color: var(--color-purple);
   text-decoration: underline 0.4vw var(--color-mint);
 }
 
@@ -63,7 +63,7 @@ p {
 
 .about-container > .text-block {
   margin: 0;
-  width: 40vw;
+  width: 37vw;
 }
 
 .about-container > .text-block-small {
@@ -77,8 +77,9 @@ p {
   padding: 0.5vw 1vw;
   margin-top: 1.5vw;
 
-	border-radius:28px;
-	border:1px solid var(--color-off-white);
+	border-radius: 5vw;
+	border: 0.05vw solid var(--color-off-white);
+
 	display:inline-block;
 	cursor:pointer;
 	color: var(--color-off-white);
@@ -133,7 +134,23 @@ p {
   margin: 0;
 }
 
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 1515px) {
+  .about-img-1 {
+    top: 24vw;
+  }
+
+  .about-img-2 {
+    top: 60vw;
+  }
+}
+
+@media only screen and (min-width: 3760px) {
+  .about-img-1 {
+    top: 18vw;
+  }
+}
+
+@media only screen and (max-width: 825px) {
   a {
     text-decoration: underline 4px var(--color-mint);
   }
@@ -207,7 +224,35 @@ p {
     position: absolute;
     width: 30vw;
     top: 1;
-    margin-top: 10vh;
+    margin-top: 8vw;
     margin-right: 14vw;
+  }
+
+  .footer > p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  h1 {
+    font-size: 9.5vw;
+  }
+
+  .about-img-2 {
+    margin-top: 16vw;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  h1 {
+    font-size: 9vw;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+
+  .about-img-2 {
+    margin-top: 22vw;
   }
 }
