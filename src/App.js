@@ -25,7 +25,8 @@ function App() {
             <ul>
               <li>JavaScript (ES6+)</li>
               <li>React</li>
-              <li> PHP</li>
+              <li>PHP</li>
+              <li>HTML/CSS</li>
               <li>Adobe Creative Suite</li>
               <li>Figma</li>
             </ul>
@@ -46,7 +47,7 @@ function App() {
           <p>natalieesseen@gmail.com</p>
         </div>
         <div className='footer'>
-            <p>Designed & Built by Natalie Esseen</p>
+          <p><a href='https://github.com/natalieesseen/personal-page' className='footer-a'>Designed & Built by Natalie Esseen</a></p>
         </div>
     </div>
   );
