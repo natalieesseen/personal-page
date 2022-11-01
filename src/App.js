@@ -5,7 +5,7 @@ function App() {
     <div className="App">
 
         <div className='home-container'>
-          <h1>Hello, my name is <br></br>Natalie Esseen</h1>
+          <h1>Hello, my name is Natalie Esseen</h1>
           <div className='text-block'>
             <p>👋 I'm a web developer based in Umeå, Sweden. I love creating pretty and user-friendly interfaces, web apps, and everything in between!</p>
           </div>

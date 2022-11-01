@@ -55,6 +55,7 @@ p {
 
 .home-container > h1 {
   color: var(--color-orange);
+  width: 38vw;
 }
 
 .deco {
@@ -180,6 +181,10 @@ p {
     max-width: fit-content;
     padding: 0px;
     margin-bottom: 10vw;
+  }
+
+  .home-container > h1 {
+    width: 100%;
   }
 
   .home-container > .text-block {
