@@ -185,7 +185,7 @@ p {
   }
 
   .about-container {
-    padding: 90px 60px 70px;
+    padding: 90px 7vw 70px;
   }
 
   .about-container > .text-block {
@@ -208,11 +208,11 @@ p {
   }
 
   .project-container {
-    margin: 100px 60px;
+    margin: 100px 7vw;
   }
 
   .contact-container {
-    padding: 60px 60px 30px;
+    padding: 60px 7vw 40px;
   }
 
   .footer > p {
@@ -248,6 +248,10 @@ p {
 
   .about-img-2 {
     margin-top: 16vw;
+  }
+
+  .about-container > .text-block-small {
+    font-size: 14px;
   }
 }
 
