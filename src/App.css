@@ -30,7 +30,6 @@ a:hover {
 
 .footer-a {
   color: var(--color-off-white);
-  transition: 0.3s;
 }
 
 body {
@@ -151,13 +150,19 @@ p {
   }
 
   .about-img-2 {
-    top: 62vw;
+    top: 58vw;
   }
 }
 
 @media only screen and (min-width: 3760px) {
   .about-img-1 {
     top: 18vw;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .about-img-2 {
+    top: 61vw;
   }
 }
 
