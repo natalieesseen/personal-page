@@ -31,7 +31,7 @@ function App() {
             </ul>
           </div>
           <div className='text-block'>
-           <p><a href='https://shadow-stitch-17b.notion.site/Natalie-Esseen-fdd2c6b9ea424b1bbb2e3dadd9f68f0f' target={'_blank'} className='resume-link'>Link to my resume ✨</a></p>
+           <p><a href='https://shadow-stitch-17b.notion.site/Natalie-Esseen-fdd2c6b9ea424b1bbb2e3dadd9f68f0f' className='resume-link'>Link to my resume ✨</a></p>
           </div>
         </div>
 
