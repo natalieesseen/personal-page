@@ -12,9 +12,9 @@
 
 * {
   font-family: var(--font-body-family);
+  -webkit-text-size-adjust: 100%;
   margin: 0 auto;
   padding: 0;
-  
 }
 
 a {
@@ -75,47 +75,26 @@ p {
 
 .about-container > .text-block-small {
   margin-left: 1vw;
+  margin-bottom: 1vw;
   column-count: 2;
   width: 35vw;
   font-size:calc(3px + 1.3vw);
 }
 
 .resume-link {
-  padding: 0.8vw 1.3vw;
-  margin-top: 2.5vw;
-
-	border-radius: 5vw;
-	border: 0.1vw solid var(--color-off-white);
-
-	display:inline-block;
-	cursor:pointer;
 	color: var(--color-off-white);
-	text-decoration:none;
-
-  font-size:calc(3px + 1.3vw);
-  transition: 0.3s;
 }
 
 .resume-link:hover {
-  background-color: var(--color-off-white);
-  color: var(--color-mint);
-  transition: 0.3s;
+	color: var(--color-orange);
 }
 
-.about-img-1 {
+.about-img {
   position: absolute;
-  width: 35vw;
-  top: 20vw;
+  width: 30vw;
+  top: 25vw;
   right: 0;
   margin-right: 10vw;
-}
-
-.about-img-2 {
-  position: absolute;
-  width: 25vw;
-  top: 55vw;
-  right: 0;
-  margin-right: 5vw;
 }
 
 .project-container {
@@ -144,28 +123,6 @@ p {
   margin: 0;
 }
 
-@media only screen and (max-width: 1515px) {
-  .about-img-1 {
-    top: 24vw;
-  }
-
-  .about-img-2 {
-    top: 58vw;
-  }
-}
-
-@media only screen and (min-width: 3760px) {
-  .about-img-1 {
-    top: 18vw;
-  }
-}
-
-@media only screen and (max-width: 1150px) {
-  .about-img-2 {
-    top: 61vw;
-  }
-}
-
 @media only screen and (max-width: 825px) {
   h1 {
     margin: 20px 0;
@@ -178,6 +135,14 @@ p {
     font-size: 18px;
   }
 
+  .about-img {
+    display: block;
+    position: relative;
+    width: 48vw;
+    top: 0;
+    margin: 0 auto -80px;
+  }
+  
   .home-container {
     width: 100%;
     max-width: fit-content;
@@ -204,14 +169,6 @@ p {
     font-size: 16px;
   }
 
-  .resume-link {
-    padding: 10px 15px;
-    margin-top: 25px;
-    border-radius:28px;
-    border: 1px solid var(--color-off-white);
-    font-size: 16px;
-  }
-
   .project-container {
     margin: 100px 7vw;
   }
@@ -224,23 +181,6 @@ p {
     padding: 10px;
   }
 
-  .about-img-1 {
-    display: block;
-    position: relative;
-    width: 45vw;
-    top: 0;
-    margin: 0 auto -80px 16vw;
-  }
-  
-  .about-img-2 {
-    display: block;
-    position: absolute;
-    width: 30vw;
-    top: 1;
-    margin-top: 8vw;
-    margin-right: 14vw;
-  }
-
   .footer > p {
     font-size: 12px;
   }
@@ -249,10 +189,6 @@ p {
 @media only screen and (max-width: 460px) {
   h1 {
     font-size: 9.2vw;
-  }
-
-  .about-img-2 {
-    margin-top: 16vw;
   }
 
   .about-container > .text-block-small {
@@ -267,9 +203,5 @@ p {
   
   p {
     font-size: 16px;
-  }
-
-  .about-img-2 {
-    margin-top: 22vw;
   }
 }

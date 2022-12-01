@@ -11,8 +11,7 @@ function App() {
           </div>
         </div>
 
-        <img src='/img-1.png' alt='natalie' className='about-img-1' />
-        <img src='/img-2.png' alt='cat with book' className='about-img-2' />
+        <img src='/img-wide.png' alt='natalie & cat' className='about-img' />
 
         <img src='/scallop-edge-mint.svg' alt='scallop svg' className='deco'/>
         <div className='about-container'>
@@ -32,7 +31,7 @@ function App() {
             </ul>
           </div>
           <div className='text-block'>
-           <a href='Natalie-CV2022.pdf' target={'_blank'} className='resume-link'>Take a look at my resume</a>
+           <p><a href='https://shadow-stitch-17b.notion.site/Natalie-Esseen-fdd2c6b9ea424b1bbb2e3dadd9f68f0f' target={'_blank'} className='resume-link'>Link to my resume ✨</a></p>
           </div>
         </div>
 
