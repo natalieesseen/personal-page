@@ -126,10 +126,10 @@ p {
   margin: 0;
 }
 
-@media only screen and (max-width: 825px) {
+@media only screen and (max-width: 825px) and (orientation: portrait) {
   h1 {
     margin: 20px 0;
-    font-size: 42px;
+    font-size: 40px;
     width: 100%;
   }
 
@@ -190,20 +190,12 @@ p {
 }
 
 @media only screen and (max-width: 460px) {
-  h1 {
-    font-size: 9.2vw;
-  }
-
   .about-container > .text-block-small {
     font-size: 14px;
   }
 }
 
 @media only screen and (max-width: 360px) {
-  h1 {
-    font-size: 9vw;
-  }
-  
   p {
     font-size: 16px;
   }
