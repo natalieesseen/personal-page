@@ -190,6 +190,10 @@ p {
 }
 
 @media only screen and (max-width: 460px) {
+  h1 {
+    font-size:calc(25px + 1.5vw);
+  }
+
   .about-container > .text-block-small {
     font-size: 14px;
   }
