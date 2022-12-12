@@ -14,13 +14,10 @@
   font-family: var(--font-body-family);
   margin: 0 auto;
   padding: 0;
-  
-  -moz-text-size-adjust: none;
-  -webkit-text-size-adjust: none;
-  text-size-adjust: none;
 }
 
 a {
+  font-style: italic;
   color: var(--color-mint);
   text-decoration: none;
   transition: 0.3s;
@@ -52,12 +49,20 @@ p {
 
 .home-container {
   margin: 10vw 7vw 12vw;
-  width: 40vw;
+  width: 44vw;
 }
 
 .home-container > h1 {
   color: var(--color-orange);
   width: 38vw;
+}
+
+.home-img {
+  z-index: -1;
+  position: absolute;
+  width: 42vw;
+  right: 0;
+  top: 0;
 }
 
 .deco {
@@ -68,36 +73,14 @@ p {
 .about-container {
   background-color: var(--color-mint);
   color: var(--color-off-white);
-  padding: 7vw;
-}
-
-.about-container > .text-block {
-  margin: 0;
-  width: 37vw;
+  padding: 10vw 7vw;
 }
 
 .about-container > .text-block-small {
-  margin-left: 1vw;
-  margin-bottom: 1vw;
+  margin-left: 1.5vw;
   column-count: 2;
-  width: 35vw;
-  font-size:calc(3px + 1.3vw);
-}
-
-.resume-link {
-	color: var(--color-off-white);
-}
-
-.resume-link:hover {
-	color: var(--color-orange);
-}
-
-.about-img {
-  position: absolute;
-  width: 30vw;
-  top: 25vw;
-  right: 0;
-  margin-right: 10vw;
+  width: 40vw;
+  font-size:calc(4px + 1.3vw);
 }
 
 .project-container {
@@ -138,31 +121,21 @@ p {
     font-size: 18px;
   }
 
-  .about-img {
+  .home-img {
     display: block;
     position: relative;
-    width: 48vw;
+    width: 100%;
     top: 0;
-    margin: 0 auto -80px;
+    margin: 40px auto -20px;
   }
   
   .home-container {
     width: 100%;
     max-width: fit-content;
-    padding: 0px;
-    margin-bottom: 10vw;
+    margin-bottom: 0;
   }
 
   .home-container > h1, .text-block {
-    width: 100%;
-  }
-
-  .about-container {
-    padding: 90px 7vw 70px;
-  }
-
-  .about-container > .text-block {
-    margin: 0;
     width: 100%;
   }
 
@@ -170,22 +143,6 @@ p {
     margin-left: 15px;
     width: 320px;
     font-size: 16px;
-  }
-
-  .project-container {
-    margin: 100px 7vw;
-  }
-
-  .contact-container {
-    padding: 60px 7vw 40px;
-  }
-
-  .footer > p {
-    padding: 10px;
-  }
-
-  .footer > p {
-    font-size: 12px;
   }
 }
 
